@@ -236,5 +236,10 @@ def jeu(grille : list):
 
         affiche(grille)
         print()
+        
+    if verification(grille):
+        print("Bravo, tu as correctement rempli la grille !")
+    else:
+        print("Dommage, il y a des erreurs dans la grille...")
 
 jeu(grille1)
